@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
 
-    <h1>gokulrajalp Changed the file and pushed what about RithiKakanagaraj</h1>
+    <h1>gokulrajalp added the bootstrap</h1>
 
   </React.StrictMode>,
   document.getElementById('root')
