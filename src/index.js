@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import 'bootstrap/dist/css/bootstrap'
+import Button from 'react-bootstrap/Button'
 ReactDOM.render(
   <React.StrictMode>
 
-    <h1>gokulrajalp added the bootstrap</h1>
+    <Button>gokulrajalp added the bootstrap</Button>
 
   </React.StrictMode>,
   document.getElementById('root')
