@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/css/bootstrap-theme.min.css'
-import 'bootstrap/dist/css/bootstrap.min.js'
+// import 'bootstrap/dist/css/bootstrap-theme.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.js'
 import {Button} from 'react-bootstrap'
+
 function App() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
