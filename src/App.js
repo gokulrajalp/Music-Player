@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/css/bootstrap-theme.min.css'
-import 'bootstrap/dist/css/bootstrap.min.js'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import {Button} from 'react-bootstrap'
 function App() {
   return (
