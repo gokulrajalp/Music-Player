@@ -8,12 +8,13 @@ body {
   background-image:url(../src/images/bg\ image.svg);
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 @media(max-width: 576px){
   li,div {
     background-color: white; 
-    
   }
-  
-  
-
 }
