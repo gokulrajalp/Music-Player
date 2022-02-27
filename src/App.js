@@ -1,6 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import music from "./images/music.jpg"
+import mulumathi from "./images/1.jpg"
+import muthanee from "./images/muthanee.jpg"
+import orumanam from "./images/orumanam.jpg"
+import halamithi from "./images/halamithi.jpg"
+import penne from "./images/penne.jpg"
+import natpu from "./images/natpu.jpg"
+import enfriend from "./images/enfriend.jpg"
+import antham from "./images/antham.jpg"
+import pallikudam from "./images/pallikudam.jpg"
+import piranthom from "./images/piranthom.jpg"
+import yealae from "./images/yealae.png"
+import kalakala from "./images/kala-kala.png"
+
 function App() {
   return (
     <div>
@@ -11,21 +25,21 @@ function App() {
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
       
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item" >
-        <a className="nav-link active text-success" href="#" >All</a>
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+        <li className="nav-item  text-success border-bottom border-5 border-dark" >
+        All
         </li>
-        <li className="nav-item">
-          <a className="nav-link active text-success"  href="#">New Songs</a>
+        <li className="nav-item  text-success">
+        New Songs
         </li>
-        <li className="nav-item">
-          <a className="nav-link active text-success" href="#">Old Songs</a>
+        <li className="nav-item  text-success">
+        Old Songs
         </li>
-        <li className="nav-item">
-          <a className="nav-link active text-success" href="#">Album</a>
+        <li className="nav-item  text-success">
+        Album
         </li>
-        <li className="nav-item">
-          <a className="nav-link active text-success" href="#">My Music</a>
+        <li className="nav-item  text-success">
+        My Music
         </li>
       </ul>
       <form className="d-flex " >
@@ -35,23 +49,64 @@ function App() {
     </div>
   </div>
 </nav>
-<div className="row">
-  <div className="col-md-4  bg-primary">
-    <div>
-    {/* mulu mathi,mudhal nee mudivum nee,oru manam,halamithi habibo;jalabulajangu,natpuku oru kovil,yealae yealae dosthu da;en frienda pola,friendship anthem,gala gala galagang;pallikoodam;engo piranthom */}
-    </div>
- 
+    {/* mulu mathi,mudhal nee mudivum nee,oru manam,halamithi habibo;jalabulajangu,natpuku oru kovil,yealae yealae dosthu da;en frienda pola,
+    friendship anthem,gala gala galagang;pallikoodam;engo piranthom */}
+
+
+<div className="container">
+<div className='row'>
+
+  <div className="col">
+<img src={mulumathi} alt="Music"/>
   </div>
-  <div className=" col-md-4 bg-primary">
-<div>this is
-      
-    </div>
+
+  <div className="col">
+<img src={muthanee}  alt="Music"/>
   </div>
-  <div className=" col-md-4  bg-primary">
-  <div>
-  this is
-    </div>
+
+  <div className="col">
+<img src={orumanam}  alt="Music"/>
   </div>
+
+  <div className="col">
+<img src={halamithi}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={penne}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={natpu}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={yealae}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={enfriend}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={antham}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={kalakala}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={pallikudam}  alt="Music"/>
+  </div>
+
+  <div className="col">
+<img src={piranthom}  alt="Music"/>
+  </div>
+
+</div>
+
+
 </div>
   </div>
   );

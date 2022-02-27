@@ -5,16 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:url(../src/images/bg\ image.svg);
+  /* background-image:url(../src/images/bg\ image.svg); */
+  background-image: linear-gradient(white, green,violet,blue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@media(max-width: 576px){
-  li,div {
-    background-color: white; 
-  }
 }
