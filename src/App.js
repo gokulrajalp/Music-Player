@@ -25,8 +25,9 @@ function App() {
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
       
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0 font-weight-light">
-        <li className="nav-item  text-success  border-bottom border-1 border-dark" >
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+        <li className="nav-item  text-success border-bottom border-1 border-dark" >
+
         All
         </li>
         <li className="nav-item  text-success">
@@ -105,9 +106,16 @@ function App() {
   </div>
 
 </div>
+</div>
+
+
+
+<div className="contailer-fluid player bg-info">
 
 
 </div>
+
+
   </div>
   );
 }
