@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
-import music from "./images/music.jpg"
+
 import mulumathi from "./images/1.jpg"
 import muthanee from "./images/muthanee.jpg"
 import orumanam from "./images/orumanam.jpg"
