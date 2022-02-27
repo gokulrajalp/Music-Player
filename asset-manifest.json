@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Music-Player/static/css/main.defa2dd3.css",
-    "main.js": "/Music-Player/static/js/main.7bfd15ad.js",
+    "main.js": "/Music-Player/static/js/main.07494baf.js",
     "static/media/yealae.png": "/Music-Player/static/media/yealae.3e4c9cf4323f69f02ff0.png",
     "static/media/kala-kala.png": "/Music-Player/static/media/kala-kala.d79f736d3bbc92c9842d.png",
     "static/media/natpu.jpg": "/Music-Player/static/media/natpu.85be617d6c3473b7a192.jpg",
@@ -13,14 +13,13 @@
     "static/media/enfriend.jpg": "/Music-Player/static/media/enfriend.38d30aa14f582d3ae75d.jpg",
     "static/media/antham.jpg": "/Music-Player/static/media/antham.ed50d14d6d638d6d2c51.jpg",
     "static/media/piranthom.jpg": "/Music-Player/static/media/piranthom.eb835baeee225e5aa1b3.jpg",
-    "static/media/music.jpg": "/Music-Player/static/media/music.b8c65e5d9a11d5fd5741.jpg",
     "static/media/orumanam.jpg": "/Music-Player/static/media/orumanam.eb254e18894118add444.jpg",
     "index.html": "/Music-Player/index.html",
     "main.defa2dd3.css.map": "/Music-Player/static/css/main.defa2dd3.css.map",
-    "main.7bfd15ad.js.map": "/Music-Player/static/js/main.7bfd15ad.js.map"
+    "main.07494baf.js.map": "/Music-Player/static/js/main.07494baf.js.map"
   },
   "entrypoints": [
     "static/css/main.defa2dd3.css",
-    "static/js/main.7bfd15ad.js"
+    "static/js/main.07494baf.js"
   ]
 }
