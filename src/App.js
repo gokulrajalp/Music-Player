@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
-
+import ReactAudioPlayer from 'react-audio-player';
 import mulumathi from "./images/1.jpg"
 import muthanee from "./images/muthanee.jpg"
 import orumanam from "./images/orumanam.jpg"
@@ -110,8 +110,13 @@ function App() {
 
 
 
-<div className="contailer-fluid player bg-info">
+<div className="contailer-fluid player bg-info fixed-bottom">
 
+<ReactAudioPlayer
+  src="my_audio_file.ogg"
+  autoPlay
+  controls
+/>
 
 </div>
 
