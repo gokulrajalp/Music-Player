@@ -14,8 +14,19 @@ import pallikudam from "./images/pallikudam.jpg"
 import piranthom from "./images/piranthom.jpg"
 import yealae from "./images/yealae.png"
 import kalakala from "./images/kala-kala.png"
-
+import info from "./audioinfo" 
+import { useState } from 'react'
 function App() {
+
+
+const [song , setsong] = useState(info[0]);
+
+function change(n){
+  setsong(info[n]);
+}
+
+
+
   return (
     <div>
     <nav className="navbar navbar-expand-lg navbar-light ">
@@ -58,11 +69,11 @@ function App() {
 <div className='row'>
 
   <div className="col">
-<img src={mulumathi} alt="Music"/>
+<img src={mulumathi} alt="Music" onClick={() => change(0)} role="button"/>
   </div>
 
   <div className="col">
-<img src={muthanee}  alt="Music"/>
+<img src={muthanee}  alt="Music" onClick={() => change(1)} role="button"/>
   </div>
 
   <div className="col">
@@ -113,7 +124,7 @@ function App() {
 <div className="contailer-fluid player bg-info fixed-bottom">
 
 <ReactAudioPlayer
-  src="my_audio_file.ogg"
+  src={song.song}
   autoPlay
   controls
 />

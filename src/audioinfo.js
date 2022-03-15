@@ -1,15 +1,20 @@
-[
+import mulumathe from './audios/Mulumathy Avalathu Mugaam - Masstamilan.In-.mp3'
+import muthalnee from './audios/Mudhal-Nee-Mudivum-Nee-Title-Track-MassTamilan.io.mp3'
+
+const info = [
     {
         "name":"Muzumathi",
         "movie":"Jodha akbar",
         "Artists":"A.R.Rahman, Srinivas",
-        "image":"mulumathi"
+        "image":"mulumathi",
+        "song":mulumathe
     },
     {
         "name":"Mudhal Nee Mudivum Nee Title Track (From Mudhal Nee Mudivum Nee)",
         "movie":"Mudhal Nee Mudivum Nee",
         "Artists":"Darbuka Siva, Sid Sriram",
-        "image":"muthanee"
+        "image":"muthanee",
+        "song":muthalnee
     },
     {
         "name":"oru Manam (From Dhruva Natchathiram)",
@@ -72,3 +77,5 @@
         "image":"kalakala"
     },
 ]
+
+export default info
