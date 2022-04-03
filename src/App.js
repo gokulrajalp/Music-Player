@@ -2,18 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import ReactAudioPlayer from 'react-audio-player';
-import mulumathi from "./images/1.jpg"
-import muthanee from "./images/muthanee.jpg"
-import orumanam from "./images/orumanam.jpg"
-import halamithi from "./images/halamithi.jpg"
-import penne from "./images/penne.jpg"
-import natpu from "./images/natpu.jpg"
-import enfriend from "./images/enfriend.jpg"
-import antham from "./images/antham.jpg"
-import pallikudam from "./images/pallikudam.jpg"
-import piranthom from "./images/piranthom.jpg"
-import yealae from "./images/yealae.png"
-import kalakala from "./images/kala-kala.png"
 import info from "./audioinfo" 
 import { useState } from 'react'
 function App() {
@@ -68,53 +56,13 @@ function change(n){
 <div className="container">
 <div className='row'>
 
-  <div className="col">
-<img src={mulumathi} alt="Music" onClick={() => change(0)} role="button"/>
-  </div>
 
-  <div className="col">
-<img src={muthanee}  alt="Music" onClick={() => change(1)} role="button"/>
+{info.map((e)=>{
+return <div className="col">
+<img src={e.image} alt="Music" onClick={() => change(e.songId)} role="button"/>
   </div>
+})}
 
-  <div className="col">
-<img src={orumanam}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={halamithi}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={penne}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={natpu}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={yealae}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={enfriend}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={antham}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={kalakala}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={pallikudam}  alt="Music"/>
-  </div>
-
-  <div className="col">
-<img src={piranthom}  alt="Music"/>
-  </div>
 
 </div>
 </div>
