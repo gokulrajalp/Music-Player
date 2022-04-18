@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Music-Player/static/css/main.defa2dd3.css",
-    "main.js": "/Music-Player/static/js/main.627c71a2.js",
+    "main.js": "/Music-Player/static/js/main.7c2b6b4a.js",
     "static/media/Mudhal-Nee-Mudivum-Nee-Title-Track-MassTamilan.io.mp3": "/Music-Player/static/media/Mudhal-Nee-Mudivum-Nee-Title-Track-MassTamilan.io.a859777861692e127f30.mp3",
     "static/media/Mulumathy Avalathu Mugaam - Masstamilan.In-.mp3": "/Music-Player/static/media/Mulumathy Avalathu Mugaam - Masstamilan.In-.debcac0c9814d42f1d24.mp3",
     "static/media/yealae.png": "/Music-Player/static/media/yealae.3e4c9cf4323f69f02ff0.png",
@@ -18,10 +18,10 @@
     "static/media/orumanam.jpg": "/Music-Player/static/media/orumanam.eb254e18894118add444.jpg",
     "index.html": "/Music-Player/index.html",
     "main.defa2dd3.css.map": "/Music-Player/static/css/main.defa2dd3.css.map",
-    "main.627c71a2.js.map": "/Music-Player/static/js/main.627c71a2.js.map"
+    "main.7c2b6b4a.js.map": "/Music-Player/static/js/main.7c2b6b4a.js.map"
   },
   "entrypoints": [
     "static/css/main.defa2dd3.css",
-    "static/js/main.627c71a2.js"
+    "static/js/main.7c2b6b4a.js"
   ]
 }
