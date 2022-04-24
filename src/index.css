@@ -4,11 +4,14 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  /* background-image:url(../src/images/bg1.webp); */
+  /* background-image:url(../src/images/bg1.jpg); */
   -moz-osx-font-smoothing: grayscale;
-  /* background-image:url(../src/images/bg\ image.svg); */
   background-image: linear-gradient(white, green,violet,blue);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
 
 }
 
