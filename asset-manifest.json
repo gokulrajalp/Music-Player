@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/Music-Player/static/css/main.defa2dd3.css",
-    "main.js": "/Music-Player/static/js/main.7c2b6b4a.js",
-    "static/media/Mudhal-Nee-Mudivum-Nee-Title-Track-MassTamilan.io.mp3": "/Music-Player/static/media/Mudhal-Nee-Mudivum-Nee-Title-Track-MassTamilan.io.a859777861692e127f30.mp3",
-    "static/media/Mulumathy Avalathu Mugaam - Masstamilan.In-.mp3": "/Music-Player/static/media/Mulumathy Avalathu Mugaam - Masstamilan.In-.debcac0c9814d42f1d24.mp3",
+    "main.css": "/Music-Player/static/css/main.a0d9d467.css",
+    "main.js": "/Music-Player/static/js/main.8e9393fe.js",
+    "static/media/Melala_Vedikudhu.mp3": "/Music-Player/static/media/Melala_Vedikudhu.240f5a8cf0e9f1ed7392.mp3",
+    "static/media/Mudhal-Nee-Mudivum-Nee.mp3": "/Music-Player/static/media/Mudhal-Nee-Mudivum-Nee.a859777861692e127f30.mp3",
+    "static/media/Oru_Manam.mp3": "/Music-Player/static/media/Oru_Manam.a843636e5825b0cf803c.mp3",
+    "static/media/Gala_Gala.mp3": "/Music-Player/static/media/Gala_Gala.ea24f3599359f52b3fd2.mp3",
+    "static/media/Pallikoodam.mp3": "/Music-Player/static/media/Pallikoodam.1e8c3a9b89188f205d67.mp3",
+    "static/media/Two_Two.mp3": "/Music-Player/static/media/Two_Two.15e97e256c3dcddb492c.mp3",
+    "static/media/Engo_piranthom.mp3": "/Music-Player/static/media/Engo_piranthom.31096b54845c1204c42d.mp3",
+    "static/media/Friendship_Anthem.mp3": "/Music-Player/static/media/Friendship_Anthem.3f210848ada1a6b90cbe.mp3",
+    "static/media/yealae_yealae.mp3": "/Music-Player/static/media/yealae_yealae.0d2a7a6e4606a381f0b2.mp3",
+    "static/media/Mulumathy Avalathu Mugaam.mp3": "/Music-Player/static/media/Mulumathy Avalathu Mugaam.debcac0c9814d42f1d24.mp3",
+    "static/media/Arabic_Kuthu.mp3": "/Music-Player/static/media/Arabic_Kuthu.6fa173b622d9dad92dd0.mp3",
+    "static/media/En_Friend.mp3": "/Music-Player/static/media/En_Friend.f66b0b940d277d098313.mp3",
     "static/media/yealae.png": "/Music-Player/static/media/yealae.3e4c9cf4323f69f02ff0.png",
     "static/media/kala-kala.png": "/Music-Player/static/media/kala-kala.d79f736d3bbc92c9842d.png",
     "static/media/natpu.jpg": "/Music-Player/static/media/natpu.85be617d6c3473b7a192.jpg",
     "static/media/muthanee.jpg": "/Music-Player/static/media/muthanee.1aa0614a86a3d86ceb00.jpg",
     "static/media/pallikudam.jpg": "/Music-Player/static/media/pallikudam.b947291f646a0b9d0930.jpg",
     "static/media/1.jpg": "/Music-Player/static/media/1.52431e0ccec0b1a4797b.jpg",
-    "static/media/penne.jpg": "/Music-Player/static/media/penne.8302bd222b1d19a0f61f.jpg",
     "static/media/halamithi.jpg": "/Music-Player/static/media/halamithi.15d49e35371c6d44be5e.jpg",
     "static/media/enfriend.jpg": "/Music-Player/static/media/enfriend.38d30aa14f582d3ae75d.jpg",
+    "static/media/TwoTwo.jpg": "/Music-Player/static/media/TwoTwo.ae43767393b8b4dacf60.jpg",
     "static/media/antham.jpg": "/Music-Player/static/media/antham.ed50d14d6d638d6d2c51.jpg",
     "static/media/piranthom.jpg": "/Music-Player/static/media/piranthom.eb835baeee225e5aa1b3.jpg",
     "static/media/orumanam.jpg": "/Music-Player/static/media/orumanam.eb254e18894118add444.jpg",
     "index.html": "/Music-Player/index.html",
-    "main.defa2dd3.css.map": "/Music-Player/static/css/main.defa2dd3.css.map",
-    "main.7c2b6b4a.js.map": "/Music-Player/static/js/main.7c2b6b4a.js.map"
+    "main.a0d9d467.css.map": "/Music-Player/static/css/main.a0d9d467.css.map",
+    "main.8e9393fe.js.map": "/Music-Player/static/js/main.8e9393fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.defa2dd3.css",
-    "static/js/main.7c2b6b4a.js"
+    "static/css/main.a0d9d467.css",
+    "static/js/main.8e9393fe.js"
   ]
 }
